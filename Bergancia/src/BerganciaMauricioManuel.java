@@ -11,7 +11,7 @@ public class BerganciaMauricioManuel {
 
         System.out.print("Last Name: ");
         String Lname = sc.nextLine();
-
+  
         System.out.print("Middle Initial: ");
         String MiddleI = sc.next();
 
@@ -22,8 +22,9 @@ public class BerganciaMauricioManuel {
         String Email = sc.next();
 
 
-        System.out.printf("hello %s %s %s\n", Fname,MiddleI, Lname);
+        System.out.printf("\nHello %s %s %s!\n", Fname,MiddleI, Lname);
         System.out.println("Your ID Number is: " + Id);
         System.out.println("Your Email is: " + Email);
+        sc.close();
     }
 }
