@@ -22,7 +22,7 @@ public class BerganciaMauricioManuel {
         String Email = sc.next();
 
 
-        System.out.printf("\nHello %s %s %s!\n", Fname,MiddleI, Lname);
+        System.out.printf("\nHello %s %s %s!\n", Fname, MiddleI, Lname);
         System.out.println("Your ID Number is: " + Id);
         System.out.println("Your Email is: " + Email);
         sc.close();
